@@ -1,0 +1,104 @@
+@keyframes svet1{
+  from {background-color: grey;}
+  to {background-color: red;}
+}
+@keyframes svet2{
+  from {background-color: grey;}
+  to {background-color: yellow;}
+}
+@keyframes svet3{
+  from {background-color: grey;}
+  to {background-color: green;}
+}
+
+
+ .lights
+ {
+	height: 430px;
+	width: 12%;
+	background-color: black;
+	border-radius: 30px 20px;
+ }
+ 
+ .signal1
+ {
+	border-radius: 60px;
+    position: absolute;
+    background-color: grey;
+    float:left;
+    height:115px;
+    width:115px;
+    top: 25px;
+    left: 40px;
+	animation-name: svet1;
+    animation-duration: 1.5s;
+	
+	transition: 2s;
+ }
+.signal1:hover {
+    background-color: #87CEEB;
+	border-radius: 60px;
+    width: 130px;
+    height: 130px;
+    transform: rotate(360deg);
+}
+
+ .signal2
+ {
+	border-radius: 60px;
+    position: absolute;
+    background-color: grey;
+    float:left;
+    height:115px;
+    width:115px;
+    top: 160px;
+    left: 40px;
+	animation-name: svet2;
+    animation-duration: 1.5s;
+	animation-delay: 2s;
+	
+	transition: 2s;
+ }
+ 
+ .signal2:hover {
+	background-color: #EE82EE; 
+	transform: translate(50%, 50%);
+
+ }
+ 
+ 
+ .signal3
+ {
+	border-radius: 60px;
+    position: absolute;
+    background-color: grey;
+    float:left;
+    height:115px;
+    width:115px;
+    top: 295px;
+    left: 40px;
+	animation-name: svet3;
+    animation-duration: 1.5s;
+	animation-delay: 4s;
+	animation-iteration-count: 3;
+	
+	transition: 2s;
+
+ }
+ .signal3:hover {
+	background-color: orange;
+	transform: skew(-20deg, -15deg);
+ }
+
+.inf1{
+	color: white;
+	font-size: 85px;
+	margin: 15%;
+	font-family: "Playfair Display";
+ }
+  .inf2{
+	color: white;
+	font-size: 85px;
+	margin: 25%;
+	font-family: "Playfair Display";
+ }
