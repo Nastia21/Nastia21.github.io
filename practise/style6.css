@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+
+.logo
+{height: 67px;
+width: 80px; 
+}
+.navbar 
+{background: #FFDEAD; 
+}
+.col-md-12
+{background: #ffe0ec; 
+}
+.textnav
+{
+	font-size: 18px;
+	font-family: "Lora";
+}
+.dropdown-item
+{
+	font-size: 15px;
+	font-family: "Lora";
+}
+.headline{
+	font-size: 35px;
+	font-family: "Fjalla One";
+	margin-left: 45%;
+}
+.image
+{
+	margin-left: 10%;
+}
+.image:hover {
+    transform: translate(5%, 5%);
+ }
+.order{
+	font-size: 22px;
+	font-family: "Benne";
+}
+.gap
+{ color: #e0fcff;
+}
+
+
