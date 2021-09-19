@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> Lab_2 </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+     <script src="js/script.js"> </script>
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class = "container-fluid">
+<div class = "row">
+<div class="col-md-3" ></div>
+<div class="col-md-6">
+
+<label class="headline">Регістрація</label>
+<p> 
+<form>
+<label>Прізвище та ім'я</label>
+<p>
+<input type="text" id="surname" placeholder="Прізвище" class="cell">
+<input type="text" id="name" placeholder="Ім'я" class="cell">
+</p></p>
+
+<p>
+<label>Стать</label>
+<label> <input type="radio" name="gender" value="male"> Чоловік </label>
+<label> <input type="radio" name="gender" value="female"> Жінка </label> </p>
+
+<p>
+<label>Email</label>
+<input type="email" id="email" class="cell" required> </p>
+
+<p>
+<label>Логін</label>
+<input type="text" id= "login" class="cell"> </p>
+
+<p> 
+<label>Пароль</label>
+<input type="password" id="password" class="cell" required> </p>
+
+<p>
+<label>Підтвердіть пароль</label>
+<input type="password" id="password_confirm" class="cell" size="10" required> </p>
+  
+<p>
+<button class="button" type="submit" id="but" onClick="checkPassw()"> Відправити </button> </p>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+</div>
+
+<div class="col-md-3"> </div></div></div>
+</form>
+
+</body>
+</html>
+

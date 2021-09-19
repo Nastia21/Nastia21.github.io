@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Prata&display=swap');
+
+.col-md-3{
+	background-image: url(bg1.jpg);
+ background-repeat: no-repeat;      
+ background-size: cover;
+}
+html,body{
+    height: 100%;}
+.col-md-6{
+	background-image: url(bg.jpg);
+ background-repeat: no-repeat;      
+ background-size: cover;
+ height:100%;
+}
+.headline{
+	font-size: 32px;
+	font-family:"Prata";
+	text-indent: 150px;
+	text-shadow: 2px 2px 2px #00ff7f;
+}
+label{
+	font-family:"Playfair Display";
+	text-indent: 18px;
+	font-size:25px;}
+.cell { 
+	background-color: 	#f0fff0; 
+	border-radius: 5px; 
+	border: 2px solid #7cfc00; 
+	margin-left: 5%;
+	width:26%;
+}
+.button{
+	background: orange;
+	color: white;
+	border-radius: 10px;
+	width:30%;
+	font-size:22px;
+	font-family:"Playfair Display";
+	margin-top:5%;
+	margin-left: 20%;
+}
+ input:required {
+    border: 2px solid red; 
+ }
+ 
