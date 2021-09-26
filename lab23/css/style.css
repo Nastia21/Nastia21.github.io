@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;}
+html,body{
+    height: 100%;}
+input{
+	
+	width:10%;
+	border-radius: 10px;	
+		padding: 0.3%;
+}
+p{
+	font-size:20px;
+}
+button{
+	width: 14%;
+	font-size:17px;
+	border-radius: 10px;
+	background: #00CED1;
+	margin-left: 2%;
+	padding: 0.5%;
+}
