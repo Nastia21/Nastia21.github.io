@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html,body{
+    height: 100%;
+    background:lightblue;
+    margin:0;
+}
+.divParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	height: 100%;
+}
+.headline
+{
+	color: blue;
+	font-size: 26px;
+	margin-left: 2%;
+	margin-bottom: 3%;
+	font-family: "Oswald";
+}
+.container{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	
+}
+.divUser{
+	margin-top: -6%;
+	color: white;
+	font-family: "Lora";
+}
+.divCard
+{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	margin-top: -1%;
+}
+.buttonPlay{
+	font-size: 25px;
+	border-radius: 10px;
+	width: 70px;
+	height: 45px;
+}
+.score{
+	margin-top: 2%;
+	background:white;
+	width: 50px;
+	text-align: center;
+	font-size: 30px;
+	border-radius:5px;
+}
+
+
