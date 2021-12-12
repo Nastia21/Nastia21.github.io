@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Yeseva+One&display=swap');
+
+html,body{
+    height: 100%;
+	background-image: radial-gradient(circle at 50% -20.71%, #ffd278 0, #ffd46e 6.25%, #ffd665 12.5%, #efd65d 18.75%, #dad657 25%, #c4d552 31.25%, #aad34f 37.5%, #8dd04e 43.75%, #6acc50 50%, #39c755 56.25%, #00c35e 62.5%, #00be69 68.75%, #00ba77 75%, #00b787 81.25%, #00b398 87.5%, #00b0aa 93.75%, #00aebd 100%);
+    margin:0;
+}
+.divParent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	height: 100%;
+}
+.headline
+{
+	color: blue;
+	font-size: 26px;
+	text-align:center;
+	margin-bottom: 3%;
+	font-family: "Yeseva One";
+}
+.container1{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	margin-top:-5%;
+	margin-left: -7%;
+}
+ .container2{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	margin-top:-4%;
+	margin-left: -5%;
+}
+
+.game1, .game2{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	margin-left: 10%;
+}
+
+.but1{
+	margin-left: 350%;
+	margin-top: 430%;
+	width: 150%;
+} 
+.but2{
+	margin-left: 500%;
+	margin-top: 430%;
+	width: 150%;
+} 
+.but3{
+	margin-left: 320%;
+	margin-top: 450%;
+	width: 150%;
+} 
+.but4{
+	margin-left: 500%;
+	margin-top: 450%;
+	width: 150%;
+} 
+
+.but1,.but2,.but3,.but4{
+	background:yellow;
+	border-radius:10px;
+}
