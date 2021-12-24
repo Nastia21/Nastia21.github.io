@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+
+.lead
+{
+	font-family: "Josefin Sans";
+}
+h1{
+	font-family: "Dancing Script";
+}
+.my-4
+{
+	font-family: "Josefin Sans";
+}
+.line{
+	font-family: "Josefin Sans";
+}
+h5
+{
+	font-family: "Dancing Script";
+}
+
+.navbar 
+{background: #dbd5a6;
+}
+.form-control 
+{background: #dbd5a6;
+}
+.col-md-6
+{background: #EAE6CA;
+}
+.col-md-3
+{background: #EAE6CA;
+}
+.col-md-12
+{background: #EAE6CA;
+}
+.card-body
+{background: #dbd5a6;
+}
+.col-md-8
+{background: #EAE6CA;
+}
+.col-md-4
+{background: #EAE6CA;
+}
+.sale
+{
+	font-family: "Josefin Sans";
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+}
+
+.sale2
+{
+	font-family: "Josefin Sans";
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	color: #CC5500;
+}
+.card-text
+{
+	font-family: "Josefin Sans";
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);		
+  transform: scale(1.1);
+}
+
